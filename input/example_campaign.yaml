@@ -1,0 +1,35 @@
+---
+
+name: example campaign from file
+description: proves you can turn a yaml file into a campaign
+start_date: "2019-12-25T08:00"
+end_date: "2020-01-01T00:00"
+time_zone: "US/Central"
+open_time: "11:00"
+close_time: "21:00"
+regions: Texas (All)
+script: "Hey %SenderFirstName% here with organization. Are you a supporter?"
+saved replies:
+  - title: Wrong Number
+    body: Sorry about that! Would you go to <link> and correct your contact info?
+  - title: Can't make it
+    body: That's too bad! How about next time?
+  - title: Can attend
+    body: "Amazing! For more info, go to this link: <link>"
+
+surveys:
+  - question: Wrong Number?
+    type: yes_no
+  - question: Attending which event?
+    type: multiple_answer
+    choices: 
+      - Friday Night
+      - Saturday Morning
+      - Saturday Night
+      - Sunday Afternoon
+self_assign: n
+
+
+
+
+...

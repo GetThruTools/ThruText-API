@@ -1,0 +1,32 @@
+---
+
+# synonym file
+
+first_name:
+  - first
+  - firstname
+
+last_name:
+  - last
+  - lastname
+  - surname
+
+phone:
+  - phone_number
+  - cell
+  - contact
+
+event host:
+  - host
+
+poll_loc:
+  - polling location
+  - polling_location
+  - poll
+
+zip code:
+  - zip
+  - zip5
+  - zip_code
+
+...

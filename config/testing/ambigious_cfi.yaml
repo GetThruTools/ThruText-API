@@ -1,0 +1,17 @@
+---
+
+first:
+  - one
+  - primary
+
+second:
+  - two
+  - secondary
+
+winning:
+  - primary
+  - presidency
+  - king?
+
+
+...

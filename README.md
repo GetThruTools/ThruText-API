@@ -1,4 +1,4 @@
-# Thrutext-API
+# ThruText-API
 
 login manager - log into ThruText. Either configure env variables to do it, or log in at the terminal, or by function.
 
